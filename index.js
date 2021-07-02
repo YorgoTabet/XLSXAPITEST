@@ -1,4 +1,4 @@
-fetch('http://localhost:4000/getNames',{
+fetch('https://xlsxserver.herokuapp.com/getNames',{
     mode: 'cors',
     headers: {
         'Access-Control-Allow-Origin':'*'

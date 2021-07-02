@@ -1,5 +1,5 @@
 fetch('https://xlsxserver.herokuapp.com/getNames',{
-    mode: 'no-cors',
+    mode: 'cors',
     headers: {
         'Access-Control-Allow-Origin':'*'
     }
